@@ -12,7 +12,7 @@ loader.load('assets/IP13PROOR.glb', function (glb) {
     console.log(glb)
     model = glb.scene;
     const root = glb.scene
-    root.scale.set(0.2, 0.2, 0.2 * 1.85)
+    root.scale.set(0.2, 0.2, 0.2)
     scene.add(root)
 }, function (xhr) {
     console.log((xhr.loader / xhr.total * 100) + "% loaded")
@@ -92,6 +92,11 @@ function OnMouseUp(){
 
 function animate() {
     requestAnimationFrame(animate)
+
+    const canvas = renderer.domElement;
+    camera.aspect = canvas.clientWidth / canvas.clientHeight;
+    camera.updateProjectionMatrix();
+
     const elapsedTime = clock.getElapsedTime()
     currRotation = model.rotation.y
     if(!stopRotation){
