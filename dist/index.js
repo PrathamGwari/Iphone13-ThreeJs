@@ -1,6 +1,6 @@
-import * as THREE from '/threejsFiles/three.module.js'
-import { GLTFLoader } from '/threejsFiles/GLTFLoader.js'
-import { OrbitControls } from '/threejsFiles/OrbitControls.js'
+import * as THREE from './threejsFiles/three.module.js'
+import { GLTFLoader } from './threejsFiles/GLTFLoader.js'
+import { OrbitControls } from './threejsFiles/OrbitControls.js'
 
 const canvas = document.querySelector('.webgl')
 const scene = new THREE.Scene()
