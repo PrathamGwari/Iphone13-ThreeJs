@@ -1,0 +1,97 @@
+body{
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    height: 100vh;
+    background-color: ghostwhite;
+}
+
+.webgl{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: ghostwhite;
+    margin: 0px;
+}
+.ThreejsCanvas{
+    height: 90vh;
+    background-color: ghostwhite;
+}
+.amazonLogo{
+    width: 100px;
+}
+
+.btn-warning{
+    background-color: #febd69;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open>.dropdown-toggle.btn-warning {
+    background-color: #eba74e;
+}
+.logo{
+    width: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.NormalText{
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    text-align: left;
+}
+
+h2{
+    display: inline-block;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+
+.searchBar{
+    width: 80%;
+}
+
+canvas{
+    overflow-y: hidden;
+}
+
+.product{
+    margin-top: 15%;
+    font-size:40px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.brand{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+.specs{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+.price{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+.buyBtn{
+    width: 160px;
+    height: auto;
+    border: 2px solid black;
+    font-weight: 700;
+}
+
+.icon{
+    /* align-self: center; */
+    color: white;
+    width: 45%;
+    height: 45%;
+}
+
+.leftContent{
+    margin-left: 1%;
+}
